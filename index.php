@@ -10,19 +10,20 @@
 <h2>The order form</h2>
 
 <form action="index.php" method ="get">
-	Name: <input  type="text" name="name">
+	Name: <input type="text" name="name">
     <input type="submit">
     <br>
-    age: <input  type="number" name="age">
+    age: <input type="number" name="age">
 	<input type="submit">
 </form>
 <br>
-
-<?php
- echo $_GET["name"]
-echo $_GET["age"]
-?>
-
+Your name is <?php echo $_GET["name"]?>
+ <br>
+ Your age is <?php echo $_GET["age"]?>
 </body>
 </html>
+
+
+
+
 
